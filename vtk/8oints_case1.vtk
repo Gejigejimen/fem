@@ -1,0 +1,59 @@
+# vtk DataFile Version 2.0
+scalar
+ASCII
+DATASET UNSTRUCTURED_GRID
+POINTS 9 float
+0 0 0
+0.5 0 0
+1 0 0
+1 0.5 0
+1 1 0
+0.5 1 0
+0 1 0
+0 0.5 0
+0.5 0.5 0
+
+CELLS 8 32
+3 0 1 8
+3 1 2 8
+3 2 3 8
+3 3 4 8
+3 4 5 8
+3 5 6 8
+3 6 7 8
+3 7 0 8
+
+CELL_TYPES 8
+5
+5
+5
+5
+5
+5
+5
+5
+
+POINT_DATA 9
+SCALARS point_scalars float
+LOOKUP_TABLE default
+0.499
+0.374
+0.0
+0.374
+0.499
+0.624
+1.0
+0.374
+0.499
+
+CELL_DATA 8
+SCALARS cell_scalars float
+LOOKUP_TABLE default
+1
+1
+1
+1
+1
+1
+1
+1
